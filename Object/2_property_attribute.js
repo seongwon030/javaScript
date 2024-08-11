@@ -16,7 +16,7 @@ const yuJin = {
 console.log(Object.getOwnPropertyDescriptor(yuJin, 'year'));
 
 /**
- * 1) value - 실제 프로퍼티으 값
+ * 1) value - 실제 프로퍼티의 값
  * 2) writable - 값을 수정 할 수 있는지 여부, false로 설정하면 프로퍼티값 수정할 수 없다
  * 3) enumarable - 열거가 가능한지 여부. for...in 등을 사용할 수 있으면 true 반환한다
  * 4) configurable - 프로퍼티 어트리뷰트의 재정의가 가능한지 여부를 판단한다
